@@ -1,0 +1,37 @@
+{
+  "name": "panda-lang",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "src/panda.js",
+  "directories": {
+    "doc": "docs",
+    "example": "examples"
+  },
+  "scripts": {
+    "lint": "node_modules/.bin/eslint src",
+    "test": "c8 ./node_modules/.bin/mocha --require @babel/register"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/Marcowutt/Marcowutt.github.io",
+  "dependencies": {
+    "ohm-js": "^15.4.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.13.10",
+    "@babel/core": "^7.13.10",
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "@babel/preset-env": "^7.13.10",
+    "@babel/register": "^7.13.8",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "c8": "^7.6.0",
+    "eslint": "^7.21.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "mocha": "^8.3.1",
+    "prettier": "^2.2.1"
+  }
+}
